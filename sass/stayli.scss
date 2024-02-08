@@ -1,0 +1,29 @@
+@use "./base/fonts";
+@use "./base/reset";
+// components
+@use "./components/buttons";
+@use "./components/widget";
+// loyout
+@use "./layout/footer";
+@use "./layout/header";
+// pages
+@use "./pages/home";
+
+// container
+
+@use "./base/container";
+//
+// main
+@use "./layout/main";
+
+@use "./components/risponsive";
+// products
+
+@use "./pages/products";
+
+
+@use "./pages/catigories";
+
+@use "./layout/catalog";
+
+@use "./pages/tavar"
